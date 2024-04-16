@@ -1,18 +1,11 @@
-# CONDA ENVIRONMENT FILE
 name: nf-train
 channels:
   - conda-forge
   - bioconda
-  - cyclus
-  - defaults
 dependencies:
-  - cyclus::java-jdk
-  - nextflow=21.10.0
+  - nextflow=23.10.1
   - salmon=1.5
-  - fastqc=0.11.5
-  - multiqc
-  - kallisto=0.46.2
-  - fastp=0.23.0
+  - fastqc=0.11
+  - multiqc=1.10
   - samtools
-  - bioconda::nf-core=2.1
-  
+  - nf-core
