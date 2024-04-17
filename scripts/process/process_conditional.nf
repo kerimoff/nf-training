@@ -1,7 +1,7 @@
 //process_conditional.nf
 nextflow.enable.dsl=2
 
-params.aligner = 'kallisto'
+params.aligner = 'salmon'
 params.transcriptome = "$projectDir/data/yeast/transcriptome/Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa.gz"
 params.kmer = 31
 
